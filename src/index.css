@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-darkBrown;
+    
+}
+
+@layer utilities {
+    /* Apply styles to all scrollbars */
+    *::-webkit-scrollbar {
+      width: 0px; /* Scrollbar width */
+      height: 10px; /* Scrollbar height */
+    }
+  
+    *::-webkit-scrollbar-thumb {
+       /* Scrollbar thumb color */
+      border-radius:0%; /* Rounded corners */
+    }
+  
+    *::-webkit-scrollbar-track {
+      background: #2c2523; /* Scrollbar track color */
+    }
+  }
+  

@@ -9,7 +9,7 @@ const projects = [
         stack: "MERN, Vite, shadcn.ui, Authentication",
         align: "right",
         image: "/images/jobhunt.jpg",
-        link: "https://github.com/subhojeetdas2016/JobHunt",
+        link: "https://jobhunt-hqx5.onrender.com/",
       },
   {
     name: "Chat App",
